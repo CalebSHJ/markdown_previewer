@@ -20,7 +20,7 @@ const Previewer = (props) => {
   )
 }
 
-
+ 
 function App() {
   const [input, setInput] = useState(placeholder);
   const [editorMax, setEditorMax] = useState(false);
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <h1 className='title'> Markdown Previewer </h1>
+      <h1 className='title'> Markdown Previewer: test </h1>
       <div className='container'>
         <div className={classes[0]}>
           <ToolBar className={classes[2]} title = "Editor" onClick={editorMaxHandle}/>
