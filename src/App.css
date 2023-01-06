@@ -135,3 +135,16 @@ body, html {
     padding-left: 5px;
     padding-right: 5px;
   }
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(178, 135, 27);
+}

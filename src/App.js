@@ -46,6 +46,7 @@ function App() {
   return (
     <div>
       <h1 className='title'> Markdown Previewer </h1>
+      <h3><a href='https://github.com/CalebSHJ/markdown_previewer'>Go to check codes</a></h3>
       <div className='container'>
         <div className={classes[0]}>
           <ToolBar className={classes[2]} title = "Editor" onClick={editorMaxHandle}/>
